@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotations>
+  <meta>
+    <task>
+      <id>0</id>
+      <name>Day12-G05</name>
+      <size>22</size>
+      <mode>annotation</mode>
+      <overlap>0</overlap>
+      <bugtracker/>
+      <created>2026-11-20T00:00:00</created>
+      <updated>2026-11-21T00:00:00</updated>
+      <subset/>
+      <segment_count>1</segment_count>
+      <episode_count>0</episode_count>
+    </task>
+  </meta>
+  <image name="S01_rgb.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">rgb</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="80" ytl="240" xbr="280" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="object" xtl="330" ytl="220" xbr="620" ybr="520" occluded="0">
+      <attribute name="seat">rear_middle</attribute>
+      <attribute name="type">bag</attribute>
+    </box>
+  </image>
+  <image name="S01_ir.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="80" ytl="240" xbr="280" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="object" xtl="330" ytl="220" xbr="620" ybr="520" occluded="0">
+      <attribute name="seat">rear_middle</attribute>
+      <attribute name="type">bag</attribute>
+    </box>
+  </image>
+  <image name="S02_rgb.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">rgb</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="650" ytl="220" xbr="900" ybr="520" occluded="0">
+      <attribute name="seat">rear_left</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="670" ytl="240" xbr="880" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="person" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="80" ytl="240" xbr="280" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+  </image>
+  <image name="S02_ir.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="650" ytl="220" xbr="900" ybr="520" occluded="0">
+      <attribute name="seat">rear_left</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="670" ytl="240" xbr="880" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="person" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="80" ytl="240" xbr="280" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+  </image>
+  <image name="S03_rgb.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">rgb</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="object" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="type">box</attribute>
+    </box>
+    <box label="person" xtl="650" ytl="220" xbr="900" ybr="520" occluded="0">
+      <attribute name="seat">rear_left</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="670" ytl="240" xbr="880" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+  </image>
+  <image name="S03_ir.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="object" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="type">box</attribute>
+    </box>
+    <box label="person" xtl="650" ytl="220" xbr="900" ybr="520" occluded="0">
+      <attribute name="seat">rear_left</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="670" ytl="240" xbr="880" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+  </image>
+  <image name="S04_rgb.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">rgb</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="330" ytl="220" xbr="620" ybr="520" occluded="0">
+      <attribute name="seat">rear_middle</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="350" ytl="240" xbr="600" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="object" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="type">cup</attribute>
+    </box>
+  </image>
+  <image name="S04_ir.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="330" ytl="220" xbr="620" ybr="520" occluded="0">
+      <attribute name="seat">rear_middle</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="350" ytl="240" xbr="600" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="object" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="type">cup</attribute>
+    </box>
+  </image>
+  <image name="S05_rgb.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">rgb</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="object" xtl="650" ytl="220" xbr="900" ybr="520" occluded="0">
+      <attribute name="seat">rear_left</attribute>
+      <attribute name="type">bag</attribute>
+    </box>
+    <box label="person" xtl="330" ytl="220" xbr="620" ybr="520" occluded="0">
+      <attribute name="seat">rear_middle</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="350" ytl="240" xbr="600" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="person" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="80" ytl="240" xbr="280" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+  </image>
+  <image name="S05_ir.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="object" xtl="650" ytl="220" xbr="900" ybr="520" occluded="0">
+      <attribute name="seat">rear_left</attribute>
+      <attribute name="type">bag</attribute>
+    </box>
+    <box label="person" xtl="330" ytl="220" xbr="620" ybr="520" occluded="0">
+      <attribute name="seat">rear_middle</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="350" ytl="240" xbr="600" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="person" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="80" ytl="240" xbr="280" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+  </image>
+  <image name="S06_rgb.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">rgb</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="80" ytl="240" xbr="280" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="object" xtl="330" ytl="220" xbr="620" ybr="520" occluded="0">
+      <attribute name="seat">rear_middle</attribute>
+      <attribute name="type">box</attribute>
+    </box>
+  </image>
+  <image name="S06_ir.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="80" ytl="240" xbr="280" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="object" xtl="330" ytl="220" xbr="620" ybr="520" occluded="0">
+      <attribute name="seat">rear_middle</attribute>
+      <attribute name="type">box</attribute>
+    </box>
+  </image>
+  <image name="S07_rgb.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">rgb</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="650" ytl="220" xbr="900" ybr="520" occluded="0">
+      <attribute name="seat">rear_left</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="670" ytl="240" xbr="880" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="object" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="type">bag</attribute>
+    </box>
+  </image>
+  <image name="S07_ir.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="650" ytl="220" xbr="900" ybr="520" occluded="0">
+      <attribute name="seat">rear_left</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="670" ytl="240" xbr="880" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="object" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="type">bag</attribute>
+    </box>
+  </image>
+  <image name="S08_rgb.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">rgb</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="650" ytl="220" xbr="900" ybr="520" occluded="0">
+      <attribute name="seat">rear_left</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="670" ytl="240" xbr="880" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="object" xtl="330" ytl="220" xbr="620" ybr="520" occluded="0">
+      <attribute name="seat">rear_middle</attribute>
+      <attribute name="type">cup</attribute>
+    </box>
+    <box label="person" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="80" ytl="240" xbr="280" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+  </image>
+  <image name="S08_ir.png" width="960" height="640">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="650" ytl="220" xbr="900" ybr="520" occluded="0">
+      <attribute name="seat">rear_left</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="670" ytl="240" xbr="880" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <box label="object" xtl="330" ytl="220" xbr="620" ybr="520" occluded="0">
+      <attribute name="seat">rear_middle</attribute>
+      <attribute name="type">cup</attribute>
+    </box>
+    <box label="person" xtl="60" ytl="220" xbr="300" ybr="520" occluded="0">
+      <attribute name="seat">rear_right</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="80" ytl="240" xbr="280" ybr="500" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+  </image>
+  <image name="D01.png" width="1280" height="1024">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="900" ytl="330" xbr="1190" ybr="660" occluded="0">
+      <attribute name="seat">driver</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="960" ytl="400" xbr="1130" ybr="620" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <skeleton label="face13">
+      <points label="left_eye_outer" points="1080,520" occluded="0" outside="0"/>
+      <points label="left_eye_inner" points="1060,520" occluded="0" outside="0"/>
+      <points label="left_eye_upper" points="1070,510" occluded="0" outside="0"/>
+      <points label="left_eye_lower" points="1070,530" occluded="0" outside="0"/>
+      <points label="right_eye_outer" points="1000,460" occluded="0" outside="0"/>
+      <points label="right_eye_inner" points="1020,460" occluded="0" outside="0"/>
+      <points label="right_eye_upper" points="1010,450" occluded="0" outside="0"/>
+      <points label="right_eye_lower" points="1010,470" occluded="0" outside="0"/>
+      <points label="nose_tip" points="1040,490" occluded="0" outside="0"/>
+      <points label="mouth_left" points="1060,560" occluded="0" outside="0"/>
+      <points label="mouth_right" points="1020,560" occluded="0" outside="0"/>
+      <points label="lip_upper" points="1040,545" occluded="0" outside="0"/>
+      <points label="lip_lower" points="1040,575" occluded="0" outside="0"/>
+    </skeleton>
+    <box label="hand" xtl="100" ytl="430" xbr="260" ybr="560" occluded="0">
+      <attribute name="whose">driver</attribute>
+      <attribute name="side">left</attribute>
+      <attribute name="on_wheel">no</attribute>
+    </box>
+    <box label="hand" xtl="1040" ytl="430" xbr="1180" ybr="560" occluded="0">
+      <attribute name="whose">driver</attribute>
+      <attribute name="side">right</attribute>
+      <attribute name="on_wheel">no</attribute>
+    </box>
+  </image>
+  <image name="D02.png" width="1280" height="1024">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="900" ytl="330" xbr="1190" ybr="660" occluded="0">
+      <attribute name="seat">driver</attribute>
+      <attribute name="seatbelt">unknown</attribute>
+    </box>
+    <box label="face" xtl="960" ytl="400" xbr="1130" ybr="620" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <skeleton label="face13">
+      <points label="left_eye_outer" points="1080,520" occluded="0" outside="0"/>
+      <points label="left_eye_inner" points="1060,520" occluded="0" outside="0"/>
+      <points label="left_eye_upper" points="1070,510" occluded="0" outside="0"/>
+      <points label="left_eye_lower" points="1070,530" occluded="0" outside="0"/>
+      <points label="right_eye_outer" points="1000,460" occluded="0" outside="0"/>
+      <points label="right_eye_inner" points="1020,460" occluded="0" outside="0"/>
+      <points label="right_eye_upper" points="1010,450" occluded="0" outside="0"/>
+      <points label="right_eye_lower" points="1010,470" occluded="0" outside="0"/>
+      <points label="nose_tip" points="1040,490" occluded="0" outside="0"/>
+      <points label="mouth_left" points="1060,560" occluded="0" outside="0"/>
+      <points label="mouth_right" points="1020,560" occluded="0" outside="0"/>
+      <points label="lip_upper" points="1040,545" occluded="0" outside="0"/>
+      <points label="lip_lower" points="1040,575" occluded="0" outside="0"/>
+    </skeleton>
+    <box label="hand" xtl="1040" ytl="430" xbr="1180" ybr="560" occluded="0">
+      <attribute name="whose">driver</attribute>
+      <attribute name="side">right</attribute>
+      <attribute name="on_wheel">no</attribute>
+    </box>
+    <box label="phone" xtl="900" ytl="600" xbr="1060" ybr="700" occluded="0">
+      <attribute name="state">held</attribute>
+    </box>
+  </image>
+  <image name="D03.png" width="1280" height="1024">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="900" ytl="330" xbr="1190" ybr="660" occluded="0">
+      <attribute name="seat">driver</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="960" ytl="400" xbr="1130" ybr="620" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <skeleton label="face13">
+      <points label="left_eye_outer" points="1080,520" occluded="0" outside="0"/>
+      <points label="left_eye_inner" points="1060,520" occluded="0" outside="0"/>
+      <points label="left_eye_upper" points="1070,510" occluded="0" outside="0"/>
+      <points label="left_eye_lower" points="1070,530" occluded="0" outside="0"/>
+      <points label="right_eye_outer" points="1000,460" occluded="0" outside="0"/>
+      <points label="right_eye_inner" points="1020,460" occluded="0" outside="0"/>
+      <points label="right_eye_upper" points="1010,450" occluded="0" outside="0"/>
+      <points label="right_eye_lower" points="1010,470" occluded="0" outside="0"/>
+      <points label="nose_tip" points="1040,490" occluded="0" outside="0"/>
+      <points label="mouth_left" points="1060,560" occluded="0" outside="0"/>
+      <points label="mouth_right" points="1020,560" occluded="0" outside="0"/>
+      <points label="lip_upper" points="1040,545" occluded="0" outside="0"/>
+      <points label="lip_lower" points="1040,575" occluded="0" outside="0"/>
+    </skeleton>
+    <box label="hand" xtl="100" ytl="430" xbr="260" ybr="560" occluded="0">
+      <attribute name="whose">driver</attribute>
+      <attribute name="side">left</attribute>
+      <attribute name="on_wheel">no</attribute>
+    </box>
+  </image>
+  <image name="D04.png" width="1280" height="1024">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="900" ytl="330" xbr="1190" ybr="660" occluded="0">
+      <attribute name="seat">driver</attribute>
+      <attribute name="seatbelt">unknown</attribute>
+    </box>
+    <box label="face" xtl="960" ytl="400" xbr="1130" ybr="620" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <skeleton label="face13">
+      <points label="left_eye_outer" points="1080,520" occluded="0" outside="0"/>
+      <points label="left_eye_inner" points="1060,520" occluded="0" outside="0"/>
+      <points label="left_eye_upper" points="1070,510" occluded="0" outside="0"/>
+      <points label="left_eye_lower" points="1070,530" occluded="0" outside="0"/>
+      <points label="right_eye_outer" points="1000,460" occluded="0" outside="0"/>
+      <points label="right_eye_inner" points="1020,460" occluded="0" outside="0"/>
+      <points label="right_eye_upper" points="1010,450" occluded="0" outside="0"/>
+      <points label="right_eye_lower" points="1010,470" occluded="0" outside="0"/>
+      <points label="nose_tip" points="1040,490" occluded="0" outside="0"/>
+      <points label="mouth_left" points="1060,560" occluded="0" outside="0"/>
+      <points label="mouth_right" points="1020,560" occluded="0" outside="0"/>
+      <points label="lip_upper" points="1040,545" occluded="0" outside="0"/>
+      <points label="lip_lower" points="1040,575" occluded="0" outside="0"/>
+    </skeleton>
+    <box label="phone" xtl="1080" ytl="300" xbr="1200" ybr="400" occluded="0">
+      <attribute name="state">mounted</attribute>
+    </box>
+  </image>
+  <image name="D05.png" width="1280" height="1024">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="900" ytl="330" xbr="1190" ybr="660" occluded="0">
+      <attribute name="seat">driver</attribute>
+      <attribute name="seatbelt">not_worn</attribute>
+    </box>
+    <box label="face" xtl="960" ytl="400" xbr="1130" ybr="620" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <skeleton label="face13">
+      <points label="left_eye_outer" points="1080,520" occluded="0" outside="0"/>
+      <points label="left_eye_inner" points="1060,520" occluded="0" outside="0"/>
+      <points label="left_eye_upper" points="1070,510" occluded="0" outside="0"/>
+      <points label="left_eye_lower" points="1070,530" occluded="0" outside="0"/>
+      <points label="right_eye_outer" points="1000,460" occluded="0" outside="0"/>
+      <points label="right_eye_inner" points="1020,460" occluded="0" outside="0"/>
+      <points label="right_eye_upper" points="1010,450" occluded="0" outside="0"/>
+      <points label="right_eye_lower" points="1010,470" occluded="0" outside="0"/>
+      <points label="nose_tip" points="1040,490" occluded="0" outside="0"/>
+      <points label="mouth_left" points="1060,560" occluded="0" outside="0"/>
+      <points label="mouth_right" points="1020,560" occluded="0" outside="0"/>
+      <points label="lip_upper" points="1040,545" occluded="0" outside="0"/>
+      <points label="lip_lower" points="1040,575" occluded="0" outside="0"/>
+    </skeleton>
+    <box label="hand" xtl="1040" ytl="430" xbr="1180" ybr="560" occluded="0">
+      <attribute name="whose">driver</attribute>
+      <attribute name="side">right</attribute>
+      <attribute name="on_wheel">no</attribute>
+    </box>
+    <box label="hand" xtl="100" ytl="430" xbr="260" ybr="560" occluded="0">
+      <attribute name="whose">driver</attribute>
+      <attribute name="side">left</attribute>
+      <attribute name="on_wheel">no</attribute>
+    </box>
+  </image>
+  <image name="D06.png" width="1280" height="1024">
+    <tag label="frame_meta">
+      <attribute name="modality">ir</attribute>
+      <attribute name="light">unknown</attribute>
+      <attribute name="camera_blocked">no</attribute>
+    </tag>
+    <box label="person" xtl="900" ytl="330" xbr="1190" ybr="660" occluded="0">
+      <attribute name="seat">driver</attribute>
+      <attribute name="seatbelt">unknown</attribute>
+    </box>
+    <box label="face" xtl="960" ytl="400" xbr="1130" ybr="620" occluded="0">
+      <attribute name="eye_left">open</attribute>
+      <attribute name="eye_right">open</attribute>
+      <attribute name="glasses">unknown</attribute>
+      <attribute name="gaze_zone">other</attribute>
+    </box>
+    <skeleton label="face13">
+      <points label="left_eye_outer" points="1080,520" occluded="0" outside="0"/>
+      <points label="left_eye_inner" points="1060,520" occluded="0" outside="0"/>
+      <points label="left_eye_upper" points="1070,510" occluded="0" outside="0"/>
+      <points label="left_eye_lower" points="1070,530" occluded="0" outside="0"/>
+      <points label="right_eye_outer" points="1000,460" occluded="0" outside="0"/>
+      <points label="right_eye_inner" points="1020,460" occluded="0" outside="0"/>
+      <points label="right_eye_upper" points="1010,450" occluded="0" outside="0"/>
+      <points label="right_eye_lower" points="1010,470" occluded="0" outside="0"/>
+      <points label="nose_tip" points="1040,490" occluded="0" outside="0"/>
+      <points label="mouth_left" points="1060,560" occluded="0" outside="0"/>
+      <points label="mouth_right" points="1020,560" occluded="0" outside="0"/>
+      <points label="lip_upper" points="1040,545" occluded="0" outside="0"/>
+      <points label="lip_lower" points="1040,575" occluded="0" outside="0"/>
+    </skeleton>
+    <box label="hand" xtl="100" ytl="430" xbr="260" ybr="560" occluded="0">
+      <attribute name="whose">driver</attribute>
+      <attribute name="side">left</attribute>
+      <attribute name="on_wheel">no</attribute>
+    </box>
+    <box label="phone" xtl="1000" ytl="720" xbr="1160" ybr="840" occluded="0">
+      <attribute name="state">lap</attribute>
+    </box>
+  </image>
+</annotations>

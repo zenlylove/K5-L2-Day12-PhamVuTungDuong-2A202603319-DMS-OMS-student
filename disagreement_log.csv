@@ -1,0 +1,7 @@
+image,label,field,issue,mine,peer,verdict,guideline_rule,action
+S02_ir,person,seat,"khác giá trị (IoU=1.00)",rear_right,rear_left,mine,4.3,"Giữ rear_right: camera OMS nhìn về phía sau, trái ảnh là phải xe, không theo bên trái ảnh"
+D03.png,face,eye_left,"khác giá trị (IoU=1.00)",open,unknown,peer,4.4-1,"Đổi thành unknown vì đốp phản xạ LED che tròng, không thấy rõ mí"
+S05_rgb,object,type,"khác giá trị (IoU=1.00)",bag,box,both_wrong,4.8,"Xem lại hình dạng vật; giữ bag nếu là túi, không đoán là box"
+D01.png,face13,left_eye_outer.occluded,"khác cờ",0,1,mine,4.6,"Giữ 0: điểm mép mí còn thấy rõ, không đánh occluded khi không bị che"
+S07_ir,person,seatbelt,"khác giá trị (IoU=1.00)",not_worn,unknown,mine,GUIDE §3 SVIRO,"Giữ not_worn: SVIRO không ai thắt dây an toàn, không để unknown khi rõ ràng"
+D04.png,hand,on_wheel,"khác giá trị (IoU=1.00)",no,yes,peer,4.7,"Đổi thành no: xe tự lái, tay rời vô lăng là bình thường, không gán yes"

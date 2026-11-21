@@ -1,0 +1,3 @@
+File: export_final.zip · chỉ kiểm ảnh: S01, S02
+Ảnh: 4 · đã có frame_meta: 4 · số đối tượng: face=6, object=2, person=6
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.

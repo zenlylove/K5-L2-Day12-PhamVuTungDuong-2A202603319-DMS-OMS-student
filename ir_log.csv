@@ -1,0 +1,6 @@
+frame_id,source,phenomenon,affected_field,effect_on_label
+S01_ir,IR_sim,"Màu đỏ dominante của ánh sáng mô phỏng SVIRO làm mất thông tin màu sắc áo quần và dây an toàn",seatbelt,"Giữ unknown; không thể xác định thắt hay không thắt từ màu trên IR-sim"
+S03_ir,IR_sim,"Không có đốp phản xạ LED trên tròng kính (khác so với IR thật)",eye_right,"Ghi unknown thay vì đoán mở/kín, vì IR-sim không tái hiện phản xạ"
+S05_ir,IR_sim,"Độ sáng ngang đều trên ba ghế sau, không giảm dần theo khoảng cách camera",object,"Nhận vật bằng hình dạng/vị trí chứ không phải bằng cường độ ánh sáng IR thực"
+D02,real_IR,"Đốp phản xạ LED cận hồng ngoại che phần lớn tròng mắt phải",right_eye_state,"Ghi unknown, không ghi closed, vì không thấy rõ mí khép"
+D04,real_IR,"Kính râm trên ảnh NIR trông trong sáng, khó phân biệt với kính thường",glasses,"Ghi unknown chứ không ghi none, tránh nhầm người không đeo kính"

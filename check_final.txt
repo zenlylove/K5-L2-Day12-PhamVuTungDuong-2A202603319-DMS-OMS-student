@@ -1,0 +1,3 @@
+File: export_final.zip
+Ảnh: 22 · đã có frame_meta: 22 · số đối tượng: face=28, face13=6, hand=7, object=14, person=28, phone=3
+Kết quả: 0 lỗi, 0 cảnh báo. Cảnh báo cần bạn tự xét, không tự động là sai.
