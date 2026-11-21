@@ -53,3 +53,4 @@ Lý do: SVIRO dùng giấy phép CC BY-NC-SA 4.0, còn Drive&Act chỉ cho phép
 - Nộp sau hạn: bị trừ điểm theo quy định chung của khóa. Nộp muộn vẫn tốt hơn không nộp.
 - Thiếu một trong E1–E5: coach ghi "chưa đủ bằng chứng" và hẹn bổ sung (RUBRIC). Chỉ nộp bổ sung đúng file được hẹn, trong thời hạn coach hẹn.
 - Sau hạn, không sửa nhãn trong `export_final*.zip` đã nộp. Lỗi phát hiện thêm thì ghi vào `self_review.md` thay vì nộp lại export.
+
