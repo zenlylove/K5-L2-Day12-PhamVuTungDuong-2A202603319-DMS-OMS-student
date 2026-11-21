@@ -237,7 +237,8 @@
         "default_value": "unknown",
         "values": [
           "unknown",
-          "no"
+          "no",
+          "yes"
         ]
       }
     ]
